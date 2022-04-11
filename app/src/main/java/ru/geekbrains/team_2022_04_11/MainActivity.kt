@@ -9,6 +9,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        // Полезно пользоваться binding
 
         val btn = findViewById<Button>(R.id.button)
         btn.setOnClickListener {
