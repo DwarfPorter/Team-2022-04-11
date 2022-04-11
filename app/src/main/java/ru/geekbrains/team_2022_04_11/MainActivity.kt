@@ -9,6 +9,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        //супер-пупер приложение!!!
+
         // Полезно пользоваться binding
 
         val btn = findViewById<Button>(R.id.button)
